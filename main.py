@@ -6,7 +6,6 @@ print('Delay between messages (in seconds, must be decimal number (ex. 0.4, 1.0,
 dtime = float(input())
 print('Time to select the chatbox you want the bot to spam in before the bot start spamming (in seconds, must be a full number (ex. 3, 5, etc.)):')
 wtime = int(input())
-print('You have' + wtime + ' seconds to select the chatbox you want the bot to spam in before the bot start spamming')
 time.sleep(wtime)
 f = open(fname + ".txt", "r")
 for word in f:
